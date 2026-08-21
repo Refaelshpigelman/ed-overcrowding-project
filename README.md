@@ -50,7 +50,6 @@
 3. Label תלת-קטגורי: short/medium/long לפי שלישונים (terciles) של זמן ההמתנה — כל קטגוריה כ-33.3% מהדאטה (`pd.qcut`).
 4. גריד של **24 אימוני MLP** (multi-class): 4 ארכיטקטורות × 3 learning rates × 2 פונקציות אקטיבציה (ReLU/Sigmoid), עם Cross-Entropy Loss רב-קטגורי.
 5. טבלת תוצאות מלאה (AUC-ROC macro, F1 macro, Precision macro, Recall macro, Accuracy לכל הרצה) + ויזואליזציה השוואתית.
-6. נספח: גרסה מקבילה עם Keras/TensorFlow (אופציונלי).
 
 ## הרצה
 
